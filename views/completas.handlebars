@@ -7,8 +7,8 @@
                     <input type="checkbox" id="tarefa-{{this.id}}" onchange="completarTarefa({{this.id}})" checked>
                     <label for="tarefa-{{this.id}}">{{this.descricao}}</label>
                 </div>
-                <button onclick="excluirTarefa({{this.id}})">
-                    <img src="/imagens/x-icon.png" alt="ícone de x para excluir uma tarefa">
+                <button onclick="excluirTarefa({this.id})">
+                    <img src="/imagens/x-icon.png" alt="icone de x para excluir uma tarefa">
                 </button>
             </form>
         </div>
